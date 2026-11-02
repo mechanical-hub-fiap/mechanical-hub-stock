@@ -1,10 +1,11 @@
 package com.fiap.mechanicalhub.stock
 
-import com.fiap.mechanicalhub.stock.application.RegisterStockEntryCommand
-import com.fiap.mechanicalhub.stock.application.RegisterStockEntryUseCase
-import com.fiap.mechanicalhub.stock.application.StockCommandProcessor
-import com.fiap.mechanicalhub.stock.application.TransientStockException
-import com.fiap.mechanicalhub.stock.infrastructure.StockCommandParser
+import com.fiap.mechanicalhub.stock.application.inventory.RegisterStockEntryCommand
+import com.fiap.mechanicalhub.stock.application.inventory.RegisterStockEntryUseCase
+import com.fiap.mechanicalhub.stock.application.messaging.StockCommandProcessor
+import com.fiap.mechanicalhub.stock.application.reservation.TransientStockException
+import com.fiap.mechanicalhub.stock.domain.reservation.reserveStock
+import com.fiap.mechanicalhub.stock.infrastructure.messaging.StockCommandParser
 import org.junit.jupiter.api.Tag
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
