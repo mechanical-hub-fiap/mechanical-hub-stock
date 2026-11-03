@@ -24,7 +24,7 @@ Uma entrada de material (`POST /stock/entry`) também resolve pendências por an
 - `GET /stock`
 - `GET /stock/{materialId}/movements`
 
-Collection Postman: [`postman/mechanical-hub-stock.postman_collection.json`](postman/mechanical-hub-stock.postman_collection.json).
+Collection Postman: [`docs/api/mechanical-hub-stock.postman_collection.json`](docs/api/mechanical-hub-stock.postman_collection.json).
 
 ## Como rodar
 
