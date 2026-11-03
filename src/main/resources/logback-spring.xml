@@ -4,6 +4,7 @@
          traceId/spanId entram quando o agente OpenTelemetry esta ativo. -->
     <appender name="JSON" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="net.logstash.logback.encoder.LogstashEncoder">
+            <customFields>{"service":"mechanical-hub-stock"}</customFields>
             <includeMdcKeyName>orderId</includeMdcKeyName>
             <includeMdcKeyName>transactionId</includeMdcKeyName>
             <includeMdcKeyName>eventId</includeMdcKeyName>
