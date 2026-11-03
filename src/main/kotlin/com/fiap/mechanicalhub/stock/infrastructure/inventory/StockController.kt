@@ -36,7 +36,7 @@ class StockController(
     private val queries: StockQueries,
 ) {
     /**
-     * Etapa `REGISTER_STOCK_ENTRY` (TD_PendenciaEstoque P4). A entrada nao pertence a uma ordem; cada ordem cuja
+     * Etapa `REGISTER_STOCK_ENTRY` (td_stock_pending P4). A entrada nao pertence a uma ordem; cada ordem cuja
      * pendencia e atendida ganha as proprias linhas `RESERVE_STOCK` (PendingItemsResolver).
      */
     @PostMapping("/stock/entry")
