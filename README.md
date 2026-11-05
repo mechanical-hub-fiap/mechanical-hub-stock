@@ -70,7 +70,7 @@ PostgreSQL, porque o saldo exige alta consistência, locks de linha e transaçõ
 
 ![Relatório JaCoCo](docs/assets/coverage-report.png)
 
-Última execução local do JaCoCo (2026-11-02): **96,4% de linhas** e 78,2% de branches. Meta: ≥ 80% de linhas (o build falha abaixo disso no profile `integration-tests`, que o CI sempre usa). `SagaFlowTests` cobre caminho feliz, pendência resolvida por entrada, recusa e pagamento não confirmado com redistribuição.
+Relatório JaCoCo da última execução completa de `verify` (2026-11-02): **96,7% de linhas** e 78,2% de branches. Meta: ≥ 80% de linhas (o build falha abaixo disso no profile `integration-tests`, que o CI sempre usa). `SagaFlowTests` cobre caminho feliz, pendência resolvida por entrada, recusa e pagamento não confirmado com redistribuição.
 
 ## CI/CD
 
